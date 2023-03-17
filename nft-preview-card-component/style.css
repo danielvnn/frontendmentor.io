@@ -1,0 +1,101 @@
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
+  color: var(--soft-blue);
+  background-color: var(--main-bg);
+}
+
+.card {
+  background-color: var(--card-bg);
+  max-width: 300px;
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 13px 170px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 13px 170px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 13px 170px 3px rgba(0, 0, 0, 0.75);
+}
+
+.card__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.card__description {
+  font-weight: 300;
+  color: var(--soft-blue);
+}
+
+.card__stat,
+.card__stat-countdown,
+.card__stat-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__stat-icon {
+  margin-right: 5px;
+}
+
+.card__stat-price {
+  color: var(--cyan);
+}
+
+.line {
+  margin: 20px 0 15px;
+  border-top: 0.01em solid var(--line);
+  width: 100%;
+}
+
+.card__attribution {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.card__attribution-avatar {
+  border-radius: 50%;
+  border: 1px solid var(--white);
+  width: 35px;
+  height: 35px;
+}
+
+.card__attribution-text {
+  margin: 0;
+  margin-left: 15px;
+  padding: 0;
+}
+
+.card__attribution-text--link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
