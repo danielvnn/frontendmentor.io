@@ -2,22 +2,11 @@
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
-
--   [Overview](#overview)
-    -   [Screenshot](#screenshot)
-    -   [Links](#links)
--   [My process](#my-process)
-    -   [Built with](#built-with)
-    -   [What I learned](#what-i-learned)
-    -   [Useful resources](#useful-resources)
--   [Author](#author)
-
 ## Overview
 
 ### Screenshot
 
-![](./design/desktop-design.jpg)
+![](./design/desktop-preview.jpg)
 
 ### Links
 
@@ -42,5 +31,5 @@ Bismillah. This is the first project I made, using only html and css. Hopefully 
 
 ## About Me
 
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+-   Frontend Mentor - [@danielervanda](https://www.frontendmentor.io/profile/danielervanda)
 -   Twitter - [@danielvin\_](https://www.twitter.com/danielvin_)
