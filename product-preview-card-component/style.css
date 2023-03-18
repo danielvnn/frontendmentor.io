@@ -61,6 +61,7 @@ p {
 	font-size: 32px;
 	color: var(--very-dark-blue);
 	line-height: 1;
+	margin-top: 0.5em;
 }
 
 .product__description {
@@ -75,7 +76,7 @@ p {
 }
 
 .product__value {
-	font-family: 'Fraunces', 'Outfit, sans-serf';
+	font-family: 'Fraunces', 'Outfit', sans-serif;
 	font-size: 34px;
 	color: var(--dark-cyan);
 }
@@ -113,4 +114,27 @@ p {
 	height: 100%;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
+}
+
+.product__image-mobile {
+	display: none;
+}
+
+@media screen and (max-width: 375px) {
+	.product {
+		flex-direction: column;
+		max-width: 345px;
+		height: auto;
+	}
+
+	.product__image {
+		display: none;
+	}
+	.product__image-mobile {
+		display: block !important;
+		width: 100%;
+		height: auto;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
 }
