@@ -7,6 +7,7 @@
 	--very-dark-blue: hsl(229, 23%, 23%);
 	--dark-grayish-blue: hsl(227, 10%, 46%);
 	--dark-gray: hsl(0, 0%, 59%);
+	--line: hsl(0deg 0% 88%);
 }
 
 body {
@@ -16,10 +17,16 @@ body {
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
+	width: 100%;
 	background-color: var(--dark-cyan);
 	font-family: 'Kumbh Sans', sans-serif;
 	font-size: 16px;
 	color: var(--very-dark-blue);
+	background-image: url('images/bg-pattern-top.svg'),
+		url(images/bg-pattern-bottom.svg);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: -80% 140%, 150% -110%;
 }
 
 .profile {
@@ -59,7 +66,9 @@ body {
 
 .profile__name-text {
 	font-size: 18px;
+	-webkit-margin-before: 0.5em;
 	margin-block-start: 0.5em;
+	-webkit-margin-after: 0.5em;
 	margin-block-end: 0.5em;
 	margin-right: 10px;
 }
@@ -78,7 +87,7 @@ body {
 }
 
 .profile__socmed {
-	border-top: 1px solid var(--dark-cyan);
+	border-top: 0.01em solid var(--line);
 	display: flex;
 	align-items: center;
 	width: 100%;
