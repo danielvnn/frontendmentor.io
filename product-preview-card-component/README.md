@@ -6,7 +6,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Screenshot
 
-![](./desktop-preview.jpg)
+![](./design/desktop-preview.jpg)
 
 ### Links
 
@@ -28,10 +28,6 @@ Users should be able to:
 -   CSS custom properties
 -   Flexbox
 
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
 ### Useful resources
 
 -   [W3Schools Html5](https://www.w3schools.com/html/)
@@ -40,4 +36,4 @@ Use this section to recap over some of your major learnings while working throug
 ## About Me
 
 -   Frontend Mentor - [@danielervanda](https://www.frontendmentor.io/profile/danielervanda)
--   Twitter - [@danielvin\_](https://www.twitter.com/danielvin_)
+-   Twitter - [@danielvin_](https://www.twitter.com/danielvin_)
