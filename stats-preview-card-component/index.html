@@ -14,32 +14,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Lexend+Deca:wght@300&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Stats preview card component | Daniel Ervanda</title>
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <div class="container">
       <section class="card">
         <div class="card__info">
           <h1 class="card__title">
-            Get insights that help your business grow.
+            Get <span class="card__title--violet">insights</span> that help your
+            business grow.
           </h1>
           <p class="card__text">
             Discover the benefits of data analytics and make better decisions
-            regarding revenue, customer experience, and overall efficiency. 10k+
-            companies 314 templates 12m+ queries
+            regarding revenue, customer experience, and overall efficiency.
           </p>
           <div class="card__stats">
             <div class="card__stats-item">
@@ -52,7 +43,7 @@
             </div>
             <div class="card__stats-item">
               <span class="card__stats-item--top">12M+</span>
-              <span class="card__stats-item--bottom"></span>
+              <span class="card__stats-item--bottom">QUERIES</span>
             </div>
           </div>
         </div>
@@ -69,13 +60,6 @@
           />
         </div>
       </section>
-    </div>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
     </div>
   </body>
 </html>
