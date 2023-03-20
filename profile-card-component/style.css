@@ -22,11 +22,22 @@ body {
 	font-family: 'Kumbh Sans', sans-serif;
 	font-size: 16px;
 	color: var(--very-dark-blue);
-	background-image: url('images/bg-pattern-top.svg'),
-		url(images/bg-pattern-bottom.svg);
-	background-repeat: no-repeat;
-	background-size: 70%;
-	background-position: -80% 140%, 150% -110%;
+}
+
+.bg__pattern {
+	display: contents;
+}
+
+.bg__pattern-top {
+	position: fixed;
+	right: 50%;
+	bottom: 40%;
+}
+
+.bg__pattern-bottom {
+	position: fixed;
+	top: 55%;
+	left: 45%;
 }
 
 .profile {
@@ -34,6 +45,10 @@ body {
 	max-width: 350px;
 	height: 100%;
 	border-radius: 10px;
+	z-index: 1;
+	-webkit-box-shadow: 0px 38px 63px -23px rgba(0, 0, 0, 0.52);
+	-moz-box-shadow: 0px 38px 63px -23px rgba(0, 0, 0, 0.52);
+	box-shadow: 0px 38px 63px -23px rgba(0, 0, 0, 0.52);
 }
 
 .profile__cover {
