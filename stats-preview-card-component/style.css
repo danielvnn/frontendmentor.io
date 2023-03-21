@@ -12,7 +12,7 @@
 }
 
 body {
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -177,6 +177,8 @@ body {
 
 	.card__image-mobile {
 		display: block;
+		border-bottom-right-radius: 0;
+		border-top-left-radius: 10px;
 	}
 
 	.card__image {
