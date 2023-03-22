@@ -18,10 +18,13 @@ body {
   min-height: 100vh;
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
-  background-color: var(--pale-blue);
+  background: var(--pale-blue) url('images/pattern-background-mobile.svg')
+    no-repeat top;
+  background-size: contain;
+  /*  background-color: var(--pale-blue);
   background-image: url('images/pattern-background-desktop.svg');
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top;*/
   margin: 0;
 }
 
@@ -37,6 +40,7 @@ body {
 .card__hero {
   width: 100%;
   height: auto;
+  margin-bottom: 1.7rem;
 }
 
 .card__illustration {
@@ -51,6 +55,7 @@ body {
 }
 
 .card__title {
+  font-size: 1.5rem;
   font-weight: 900;
   text-align: center;
 }
@@ -66,7 +71,7 @@ body {
 .card__chart {
   display: flex;
   align-items: center;
-  padding: 15px 10px;
+  padding: 1.3rem;
   background-color: var(--very-pale-blue);
   border-radius: 10px;
 }
@@ -101,6 +106,7 @@ body {
   color: var(--bright-blue);
   font-weight: 900;
   font-size: 0.9rem;
+  text-align: end;
   cursor: pointer;
 }
 
@@ -110,12 +116,12 @@ body {
 }
 
 .card__payment {
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 
 .card__payment-confirm {
   cursor: pointer;
-  padding: 15px 60px;
+  padding: 1rem 3.5rem;
   background-color: var(--bright-blue);
   color: var(--white);
   border-radius: 10px;
@@ -123,8 +129,8 @@ body {
   width: 100%;
   font-size: 0.9rem;
   font-weight: 700;
-  margin-top: 30px;
-  margin-bottom: 7px;
+  margin-top: 1.3rem;
+  margin-bottom: 0.5rem;
   box-shadow: 0px 15px 23px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -144,10 +150,21 @@ body {
 }
 
 @media (min-width: 576px) {
+  body {
+    background-image: url('images/pattern-background-desktop.svg');
+  }
+  .card__hero {
+    margin-bottom: 3rem;
+  }
+
   .card {
     max-width: 450px;
   }
   .card__order {
     padding: 0 3rem;
+  }
+
+  .card__title {
+    font-size: 1.7rem;
   }
 }
