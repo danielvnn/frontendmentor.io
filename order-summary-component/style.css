@@ -1,0 +1,137 @@
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  background-color: var(--pale-blue);
+  background-image: url('images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  margin: 0;
+}
+
+.card {
+  background-color: var(--white);
+  max-width: 450px;
+  height: auto;
+  border-radius: 20px;
+  margin: 6%;
+  box-shadow: 0px 15px 23px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card__hero {
+  width: 100%;
+  height: auto;
+}
+
+.card__illustration {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card__order {
+  padding: 0 1.5rem;
+}
+
+.card__title {
+  font-weight: 900;
+  text-align: center;
+}
+
+.card__description {
+  text-align: center;
+  padding: 0 0.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--desaturated-blue);
+}
+
+.card__chart {
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+  background-color: var(--very-pale-blue);
+  border-radius: 10px;
+}
+
+.card__product {
+  flex-basis: 50%;
+  margin-left: 1rem;
+}
+
+.card__chart-icon {
+  width: auto;
+  height: 100%;
+}
+
+.card__chart p {
+  margin: 0;
+}
+
+.card__product-name {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.card__product-price {
+  color: var(--desaturated-blue);
+  margin-top: 2px;
+  font-size: 0.9rem;
+}
+
+.card__chart-option--link {
+  text-decoration: underline;
+  color: var(--bright-blue);
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
+.card__payment {
+  margin-bottom: 30px;
+}
+
+.card__payment-confirm {
+  padding: 15px 60px;
+  background-color: var(--bright-blue);
+  color: var(--white);
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 7px;
+  box-shadow: 0px 15px 23px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card__payment-cancel {
+  color: var(--desaturated-blue);
+  text-align: center;
+  font-weight: 900;
+}
+
+@media (min-width: 576px) {
+  .card {
+    max-width: 450px;
+  }
+  .card__order {
+    padding: 0 3rem;
+  }
+}

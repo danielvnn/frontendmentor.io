@@ -17,32 +17,42 @@
       href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Order summary card | Daniel Ervanda</title>
   </head>
   <body>
     <section class="card">
-      <img src="images/illustration-hero.svg" alt="Illustration" />
-      <h1 class="card__title">Order Summary</h1>
-
-      <p class="card__description">
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-
-      <div class="card__chart">
-        <img src="images/icon-music.svg" alt="" class="card__chart-icon" />
-        <div class="card__product">
-          <p class="card__product-name">Annual Plan</p>
-          <p class="card__product-price">$59.99/year</p>
-        </div>
-
-        <div class="card__chart-option">
-          <p class="card__chart-option--link">Change</p>
-        </div>
+      <div class="card__hero">
+        <img
+          src="images/illustration-hero.svg"
+          class="card__illustration"
+          alt="Illustration"
+        />
       </div>
-      <div class="card__payment">
-        <button class="card__payment-confirm">Procceed To Payment</button>
-        <p class="card__payment-cancel">Cancel Order</p>
+
+      <div class="card__order">
+        <h1 class="card__title">Order Summary</h1>
+
+        <p class="card__description">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <div class="card__chart">
+          <img src="images/icon-music.svg" alt="" class="card__chart-icon" />
+          <div class="card__product">
+            <p class="card__product-name">Annual Plan</p>
+            <p class="card__product-price">$59.99/year</p>
+          </div>
+
+          <div class="card__chart-option">
+            <p class="card__chart-option--link">Change</p>
+          </div>
+        </div>
+        <div class="card__payment">
+          <button class="card__payment-confirm">Proceed to Payment</button>
+          <p class="card__payment-cancel">Cancel Order</p>
+        </div>
       </div>
     </section>
   </body>
