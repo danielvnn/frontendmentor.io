@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-BOa6ypekhq](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-BOa6ypekhq)
+-   Solution URL : [https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-BOa6ypekhq](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-BOa6ypekhq)
+-   Live Site URL: [https://danielervanda.github.io/frontendmentor.io/stats-preview-card-component/](https://danielervanda.github.io/frontendmentor.io/stats-preview-card-component/)
 
 ## My process
 
