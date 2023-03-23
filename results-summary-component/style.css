@@ -7,4 +7,47 @@
   --light-royal-blue-bg: hsl(241, 81%, 54%);
   --violet-blue-circle: hsla(256, 72%, 46%, 1);
   --persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+  --white-color: hsl(0, 0%, 100%);
+  --pale-blue-color: hsl(221, 100%, 96%);
+  --light-lavender-color: hsl(241, 100%, 89%);
+  --dark-gray-blue-color: hsl(224, 30%, 27%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: var(--white-color);
+  font-size: 18px;
+  color: var(--light-lavender-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 735px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-height: 515px;
+  }
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background-color: var(--cobalt-blue);
+  min-height: 50vh;
+  padding: 20px 60px;
+}
+
+.summary {
+  padding: 30px;
 }
