@@ -1,0 +1,144 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: var(--very-light-gray);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 0.95rem;
+  color: var(--transparent-white);
+}
+
+p,
+h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.container {
+  min-width: 330px;
+  max-width: 920px;
+  margin: 6%;
+}
+
+.card-column {
+  display: flex;
+  /*  flex-wrap: wrap; */
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
+.card-column__icon {
+  width: 64px;
+  height: 40px;
+}
+
+.card-column__title {
+  font-family: 'Big Shoulders Display', 'Lexend Deca', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--very-light-gray);
+  margin: 1.8rem 0;
+}
+
+.card-column__text {
+  line-height: 1.7;
+}
+
+.card-column__left,
+.card-column__center,
+.card-column__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2.8rem;
+  flex: 1 1 30%;
+  min-height: 440px;
+}
+
+.card-column__left {
+  background-color: var(--bright-orange);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-column__center {
+  background-color: var(--dark-cyan);
+}
+
+.card-column__right {
+  background-color: var(--very-dark-cyan);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-column__button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 24px;
+  color: inherit;
+  font-family: 'Lexend Deca';
+  font-weight: 700;
+  width: 65%;
+}
+
+.card-column__button--sedans {
+  color: var(--bright-orange);
+}
+
+.card-column__button--suvs {
+  color: var(--dark-cyan);
+}
+
+.card-column__button--luxury {
+  color: var(--very-dark-cyan);
+}
+
+@media (min-width: 900px) {
+  body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    margin: 0;
+  }
+
+  .card-column {
+    flex-direction: row;
+  }
+
+  .card-column__left,
+  .card-column__center,
+  .card-column__right {
+    justify-content: space-between;
+    min-height: 500px;
+  }
+
+  .card-column__left {
+    border-top-right-radius: 0;
+
+    border-bottom-left-radius: 10px;
+  }
+  .card-column__right {
+    border-top-right-radius: 10px;
+
+    border-bottom-left-radius: 0;
+  }
+}
