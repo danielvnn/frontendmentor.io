@@ -141,7 +141,7 @@ body {
   background-color: hsl(166, 100%, 37%, 0.05);
 }
 
-.summary-item--visual {
+.summary__item--visual {
   color: var(--cobalt-blue);
   background-color: hsl(234, 85%, 45%, 0.05);
 }
