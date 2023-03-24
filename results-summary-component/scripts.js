@@ -1,6 +1,4 @@
-fetch(
-	'https://danielervanda.github.io/frontendmentor.io/results-summary-component/data.json'
-)
+fetch('data.json')
 	.then((response) => response.json())
 	.then((data) => {
 		summary = data
@@ -17,9 +15,9 @@ fetch(
             </div>
             <div class="summary__score">
               <p class="summary__score-value">
-                <span class="summary__item-value--bold">${
-					data.score
-				}</span> / 100
+                <span class="summary__item-value--bold">
+                ${data.score}
+                </span> / 100
               </p>
             </div>
           </div>`
