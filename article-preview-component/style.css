@@ -79,13 +79,52 @@ body {
   margin-left: 15px;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .share-button {
-  margin-left: auto;
+  padding: 10px;
+  background-color: var(--light-grayish-blue);
+  position: relative;
+  border-radius: 50%;
 }
 
-.share-button img {
+.share-icon {
   height: 15px;
   width: auto;
+}
+
+.share__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  right: -105px;
+  bottom: 60px;
+  display: flex;
+  width: 245px;
+  padding: 30px 35px;
+  height: 55px;
+  border-radius: 14px;
+  background-color: var(--very-dark-grayish-blue);
+}
+
+.share__box-icon {
+  height: auto;
+  width: auto;
+}
+
+.share__box:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: '';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: var(--very-dark-grayish-blue);
+  border-width: 15px;
+  margin-left: -15px;
 }
