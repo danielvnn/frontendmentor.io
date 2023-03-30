@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Interactive rating component | Daniel Ervanda</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card__image-icon">
+          <img src="images/icon-star.svg" alt="" class="card__icon" />
+        </div>
+        <h1 class="card__title">How did we do?</h1>
+        <p class="card__description">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <form>
+          <div class="rating">
+            <input type="radio" id="star-1" name="rating" value="1" />
+            <label class="star-1" for="star-1">1</label>
+            <input type="radio" id="star-2" name="rating" value="2" />
+            <label class="star-2" for="star-2">2</label>
+            <input type="radio" id="star-3" name="rating" value="3" />
+            <label class="star-3" for="star-3">3</label>
+            <input type="radio" id="star-4" name="rating" value="4" />
+            <label class="star-4" for="star-4">4</label>
+            <input type="radio" id="star-5" name="rating" value="5" />
+            <label class="star-5" for="star-5">5</label>
+          </div>
+          <button class="submit-button" onclick="submitForm()">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      function submitForm() {
+        event.preventDefault()
+        const rating = document.querySelector(
+          'input[name="rating"]:checked'
+        ).value
+        window.location.href = `result.html?rating=${rating}`
+      }
+    </script>
+  </body>
+</html>

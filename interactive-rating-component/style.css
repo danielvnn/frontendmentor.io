@@ -1,0 +1,116 @@
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 12%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-size: 15px;
+  color: var(--light-grey);
+  font-family: 'Overpass', sans-serif;
+}
+
+.container {
+  max-width: 415px;
+}
+
+.card {
+  width: 100%;
+  min-height: 410px;
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  padding-right: 40px;
+  border-radius: 24px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* TYPOGRAPHY */
+
+input[type='radio' i] {
+  display: none;
+  appearance: none;
+}
+.card__title {
+  color: var(--white);
+}
+
+label {
+  cursor: pointer;
+  background-color: hsl(217, 12%, 63%, 0.1);
+  padding: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BUTTON */
+
+.star-1:hover,
+.star-2:hover,
+.star-3:hover,
+.star-4:hover,
+.star-5:hover {
+  background-color: var(--light-grey);
+  color: var(--white);
+}
+.rating input[type='radio']:checked + label {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.submit-button {
+  cursor: pointer;
+  padding: 15px 0;
+  width: 100%;
+  background-color: var(--orange);
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+/* IMAGES */
+
+.card__image-icon {
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: hsl(217, 12%, 63%, 0.1);
+}
+
+.card__icon {
+  width: 20px;
+  height: 20px;
+}
