@@ -29,6 +29,13 @@ body {
   max-width: 415px;
 }
 
+@media (max-width: 470px) {
+  .container {
+    max-width: none;
+    margin: 5%;
+  }
+}
+
 .result-page {
   align-items: center;
   text-align: center;
