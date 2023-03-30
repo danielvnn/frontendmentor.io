@@ -12,7 +12,7 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Interactive rating component</title>
+    <title>Interactive rating component | Daniel Ervanda</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,10 +22,30 @@
     />
   </head>
   <body>
+    <div class="container">
+      <div class="card result-page">
+        <div class="card__image-hero">
+          <img
+            src="images/illustration-thank-you.svg"
+            alt=""
+            class="card__hero"
+          />
+        </div>
+        <div class="card__result"></div>
+        <h1 class="card__title">Thank you!</h1>
+        <p class="card__description">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
+          <a href="index.html"> Go Back</a>
+        </p>
+      </div>
+    </div>
+
     <script>
+      const result = document.querySelector('.card__result')
       const urlParams = new URLSearchParams(window.location.search)
       const rating = urlParams.get('rating')
-      document.write(`Hello ${rating}!`)
+      result.innerHTML += `You selected ${rating} out of 5`
     </script>
   </body>
 </html>

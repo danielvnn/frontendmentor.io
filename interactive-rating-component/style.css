@@ -29,6 +29,13 @@ body {
   max-width: 415px;
 }
 
+.result-page {
+  align-items: center;
+  text-align: center;
+
+  padding: 45px 40px 50px 40px !important;
+}
+
 .card {
   width: 100%;
   min-height: 410px;
@@ -54,8 +61,13 @@ input[type='radio' i] {
   display: none;
   appearance: none;
 }
+
 .card__title {
   color: var(--white);
+}
+
+.card__description {
+  line-height: 1.5;
 }
 
 label {
@@ -68,6 +80,19 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card__result {
+  width: fit-content;
+  background-color: hsl(217, 12%, 63%, 0.1);
+  color: var(--orange);
+  padding: 10px 20px;
+  /* text-align: center; */
+  border-radius: 18px;
+}
+
+a {
+  color: var(--orange);
 }
 
 /* BUTTON */
