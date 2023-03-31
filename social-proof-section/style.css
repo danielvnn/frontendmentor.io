@@ -1,0 +1,58 @@
+:root {
+  /* Primary */
+  --color-primary-very-dark-magenta: hsl(300, 43%, 22%);
+  --color-primary-soft-pink: hsl(333, 80%, 67%);
+
+  /* Neutral */
+  --color-neutral-dark-grayish-magenta: hsl(303, 10%, 53%);
+  --color-neutral-light-grayish-magenta: hsl(300, 24%, 96%);
+  --color-neutral-white: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+}
+
+.hero,
+.testimonials,
+.rates-item {
+  display: flex;
+  width: 100%;
+}
+
+.header,
+.rates {
+  width: 50%;
+}
+
+.header {
+  padding-left: 150px;
+}
+
+.h1 {
+  font-size: 3rem;
+  color: var(--color-primary-very-dark-magenta);
+}
+
+.description {
+  margin-top: 30px;
+  font-size: 16px;
+  color: var(--color-neutral-dark-grayish-magenta);
+}
