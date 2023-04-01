@@ -32,7 +32,8 @@ body {
 
 .hero,
 .testimonials,
-.rates-item {
+.rates-item,
+.profile {
   display: flex;
   width: 100%;
 }
@@ -43,16 +44,103 @@ body {
 }
 
 .header {
-  padding-left: 150px;
+  padding-right: 120px;
 }
 
 .h1 {
-  font-size: 3rem;
+  font-size: 3.4rem;
   color: var(--color-primary-very-dark-magenta);
 }
 
 .description {
+  line-height: 1.2;
   margin-top: 30px;
-  font-size: 16px;
+  font-size: 19px;
+  font-weight: 500;
   color: var(--color-neutral-dark-grayish-magenta);
+}
+
+.rates {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.rates-2 {
+  margin-left: 50px;
+}
+.rates-3 {
+  margin-left: 100px;
+}
+.rates-item {
+  border-radius: 8px;
+  align-items: center;
+  padding: 20px 30px;
+  width: 28rem;
+  background-color: var(--color-neutral-light-grayish-magenta);
+}
+
+.rates-stars {
+  margin-right: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.rates-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-primary-very-dark-magenta);
+}
+
+/* TESTIMONIAL CARD*/
+
+.testimonials {
+  margin-top: 70px;
+}
+
+.card {
+  width: 100%;
+  max-width: 350px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+  background-color: var(--color-primary-very-dark-magenta);
+  border-radius: 8px;
+}
+
+.card:nth-child(2) {
+  margin: 15px 30px 0 30px;
+}
+
+.card:nth-child(3) {
+  margin-top: 30px;
+}
+
+.profile {
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.profile-name {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.profile-img {
+  margin-right: 30px;
+  width: 45px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profile-status {
+  color: var(--color-primary-soft-pink);
+}
+
+.profile-testimonial {
+  line-height: 1.4;
+  word-spacing: 1px;
+  font-size: 16px;
 }
