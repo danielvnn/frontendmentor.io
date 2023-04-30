@@ -19,10 +19,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  min-width: 100vw;
+  min-height: 800px;
+  min-width: 1440px;
   font-family: 'League Spartan', sans-serif;
   font-size: 15px;
+  overflow-x: hidden;
 }
 
 .container {
@@ -143,4 +144,100 @@ body {
   line-height: 1.4;
   word-spacing: 1px;
   font-size: 16px;
+}
+
+@media (max-width: 1439px) {
+  .container {
+    margin: 100px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 80px 6%;
+  }
+
+  .header,
+  .rates {
+    width: 100%;
+  }
+  .rates {
+    margin: 45px 0;
+  }
+
+  .header {
+    padding: 0;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+  .hero {
+    flex-direction: column;
+  }
+
+  .h1 {
+    font-size: 2.5rem;
+  }
+  .testimonials {
+    flex-wrap: wrap;
+  }
+
+  .rates-item {
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .rates-stars {
+    margin-bottom: 0;
+  }
+
+  .rates-2 {
+    margin: 15px 0;
+  }
+
+  .rates-3 {
+    margin-left: 0;
+  }
+
+  .testimonials {
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  .card {
+    width: 100%;
+    max-width: initial;
+  }
+
+  .card:nth-child(2) {
+    margin: 15px 0;
+  }
+
+  .card:nth-child(3) {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .rates-item {
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 30px;
+  }
+
+  .rates-stars {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
 }
