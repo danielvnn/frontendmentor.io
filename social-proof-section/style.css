@@ -19,11 +19,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 800px;
-  min-width: 1440px;
   font-family: 'League Spartan', sans-serif;
   font-size: 15px;
   overflow-x: hidden;
+  background-image: url('images/bg-pattern-top-desktop.svg'),
+    url('images/bg-pattern-bottom-desktop.svg');
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -146,13 +148,28 @@ body {
   font-size: 16px;
 }
 
+@media (min-width: 1440px) {
+  body {
+    min-height: 800px;
+  }
+}
+
 @media (max-width: 1439px) {
   .container {
     margin: 100px 0;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
+  .header {
+    padding-right: 5%;
+  }
+  .container {
+    padding: 0 6%;
+  }
+}
+
+@media (max-width: 840px) {
   body {
     display: block;
     width: 100%;
@@ -229,6 +246,10 @@ body {
 }
 
 @media (max-width: 576px) {
+  body {
+    background-image: url('images/bg-pattern-top-mobile.svg'),
+      url('images/bg-pattern-bottom-mobile.svg');
+  }
   .rates-item {
     width: auto;
     flex-direction: column;
