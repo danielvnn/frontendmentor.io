@@ -16,8 +16,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL : [https://www.frontendmentor.io/solutions/four-card-feature-section-zmdcs4_ZTx](https://www.frontendmentor.io/solutions/four-card-feature-section-zmdcs4_ZTx)
--   Live Site URL: [https://danielervanda.github.io/frontendmentor.io/four-card-feature-section/](https://danielervanda.github.io/frontendmentor.io/four-card-feature-section/)
+-   Live Site URL: [https://danielvnn.github.io/frontendmentor.io/four-card-feature-section/](https://danielvnn.github.io/frontendmentor.io/four-card-feature-section/)
 
 ## My process
 
@@ -26,8 +25,8 @@ Users should be able to:
 -   Semantic HTML5 markup
 -   CSS custom properties
 -   Flexbox
--                   Mobile first design
--                   Javascript (fetch)
+-   Mobile first design
+-   Javascript (fetch)
 
 ### Useful resources
 

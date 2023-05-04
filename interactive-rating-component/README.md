@@ -17,8 +17,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL : [https://www.frontendmentor.io/solutions/interactive-rating-component-using-javascript-1057Y4YMDQ](https://www.frontendmentor.io/solutions/interactive-rating-component-using-javascript-1057Y4YMDQ)
--   Live Site URL: [https://danielervanda.github.io/frontendmentor.io/interactive-rating-component/](https://danielervanda.github.io/frontendmentor.io/interactive-rating-component/)
+-   Live Site URL: [https://danielvnn.github.io/frontendmentor.io/interactive-rating-component/](https://danielvnn.github.io/frontendmentor.io/interactive-rating-component/)
 
 ## My process
 

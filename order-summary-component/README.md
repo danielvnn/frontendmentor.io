@@ -16,8 +16,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [https://www.frontendmentor.io/solutions/reponsive-order-summary-card-component-WfThu27hyF](https://www.frontendmentor.io/solutions/reponsive-order-summary-card-component-WfThu27hyF)
--   Live Site URL: [https://danielervanda.github.io/frontendmentor.io/order-summary-component/](https://danielervanda.github.io/frontendmentor.io/order-summary-component/)
+-   Live Site URL: [https://danielvnn.github.io/frontendmentor.io/order-summary-component/](https://danielvnn.github.io/frontendmentor.io/order-summary-component/)
 
 ## My process
 

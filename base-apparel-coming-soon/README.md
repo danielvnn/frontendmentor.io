@@ -20,8 +20,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL : [https://www.frontendmentor.io/solutions/](https://www.frontendmentor.io/solutions/)
-- Live Site URL: [https://danielervanda.github.io/frontendmentor.io/base-apparel-coming-soon](https://danielervanda.github.io/frontendmentor.io/base-apparel-coming-soon)
+- Live Site URL: [https://danielvnn.github.io/frontendmentor.io/base-apparel-coming-soon](https://danielvnn.github.io/frontendmentor.io/base-apparel-coming-soon)
 
 ## My process
 

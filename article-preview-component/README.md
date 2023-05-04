@@ -17,8 +17,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL : [https://www.frontendmentor.io/solutions/javascript-share-button-article-preview-component-dwDDvBtuEL](https://www.frontendmentor.io/solutions/javascript-share-button-article-preview-component-dwDDvBtuEL)
--   Live Site URL: [https://danielervanda.github.io/frontendmentor.io/article-preview-component/](https://danielervanda.github.io/frontendmentor.io/article-preview-component/)
+-   Live Site URL: [https://danielvnn.github.io/frontendmentor.io/article-preview-component/](https://danielvnn.github.io/frontendmentor.io/article-preview-component/)
 
 ## My process
 

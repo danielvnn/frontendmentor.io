@@ -17,8 +17,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL : [https://www.frontendmentor.io/solutions/responsive-results-summary-component-and-use-javascript-Ss-yfTzyYp](https://www.frontendmentor.io/solutions/responsive-results-summary-component-and-use-javascript-Ss-yfTzyYp)
--   Live Site URL: [https://danielervanda.github.io/frontendmentor.io/results-summary-component/](https://danielervanda.github.io/frontendmentor.io/results-summary-component/)
+-   Live Site URL: [https://danielvnn.github.io/frontendmentor.io/results-summary-component/](https://danielvnn.github.io/frontendmentor.io/results-summary-component/)
 
 ## My process
 
@@ -27,8 +26,8 @@ Users should be able to:
 -   Semantic HTML5 markup
 -   CSS custom properties
 -   Flexbox
--       Mobile first design
--       Javascript (fetch)
+-         Mobile first design
+-         Javascript (fetch)
 
 ### Useful resources
 

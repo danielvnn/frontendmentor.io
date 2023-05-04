@@ -10,8 +10,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
--   Solution URL: [https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub)
--   Live Site URL: [https://danielervanda.github.io/frontendmentor.io/product-preview-card-component/](https://danielervanda.github.io/frontendmentor.io/product-preview-card-component/)
+-   Live Site URL: [https://danielvnn.github.io/frontendmentor.io/product-preview-card-component/](https://danielvnn.github.io/frontendmentor.io/product-preview-card-component/)
 
 ### The challenge
 
@@ -36,4 +35,4 @@ Users should be able to:
 ## About Me
 
 -   Frontend Mentor - [@danielervanda](https://www.frontendmentor.io/profile/danielervanda)
--   Twitter - [@danielvin_](https://www.twitter.com/danielvin_)
+-   Twitter - [@danielvin\_](https://www.twitter.com/danielvin_)

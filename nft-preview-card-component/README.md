@@ -11,8 +11,7 @@ This is a solution to the [NFT preview card component
 
 ### Links
 
--   Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-component-using-bem-css-HeYzhCfv4N](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-bem-css-HeYzhCfv4N)
--   Live Site URL: [https://danielervanda.github.io/frontendmentor.io/nft-preview-card-component/](https://danielervanda.github.io/frontendmentor.io/nft-preview-card-component/)
+-   Live Site URL: [https://danielvnn.github.io/frontendmentor.io/nft-preview-card-component/](https://danielvnn.github.io/frontendmentor.io/nft-preview-card-component/)
 
 ## My process
 
