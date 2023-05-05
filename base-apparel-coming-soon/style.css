@@ -8,4 +8,139 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  font-size: 16px;
+  color: var(--desaturated-red);
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.title__bold {
+  color: var(--dark-grayish-red);
+}
+
+.container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.logo {
+  position: absolute;
+  left: 160px;
+  top: 65px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 0 160px;
+  width: 57%;
+}
+
+.hero {
+  width: 43%;
+  height: auto;
+  background-image: url('images/hero-desktop.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-top: 90px;
+  letter-spacing: 14px;
+}
+
+.title__bold {
+  font-weight: 600;
+  display: block;
+}
+
+.intro {
+  width: 90%;
+  margin: 30px 0;
+  line-height: 1.7;
+}
+
+form {
+  width: 100%;
+  position: relative;
+}
+
+input[type='email'] {
+  padding: 22px 25px;
+  width: 80%;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+  color: var(--desaturated-red);
+}
+
+input[type='email']:hover {
+  border: 1px solid hsl(0, 6%, 24%);
+}
+input[type='email']:focus {
+  border: 2px solid hsl(0, 6%, 24%);
+  color: var(--dark-grayish-red);
+}
+
+.submit {
+  position: absolute;
+  right: 10%;
+  width: 100px;
+  height: 60px;
+  background-image: url(images/icon-arrow.svg),
+    linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  background-position: center;
+  background-size: initial;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-image: url(images/icon-arrow.svg),
+    linear-gradient(135deg, hsl(0, 80%, 86%, 0.6), hsl(0, 74%, 74%, 0.6));
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 40px 6%;
+    width: 100%;
+  }
+  .logo {
+    order: -2;
+    padding: 30px;
+    display: block;
+    position: initial;
+  }
+
+  .logo img {
+    height: 25px;
+    width: auto;
+  }
+  .hero {
+    width: auto;
+    height: 250px;
+    order: -1;
+    background-size: cover;
+  }
+  .container {
+    flex-direction: column;
+  }
 }
