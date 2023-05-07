@@ -64,6 +64,12 @@ h1 {
 	border-radius: 40px;
 	border: none;
 	margin: 20px 0;
+	cursor: pointer;
+}
+
+.register:hover {
+	color: white;
+	background-color: var(--soft-magenta);
 }
 
 @media (min-width: 576px) {
@@ -124,12 +130,11 @@ h1 {
 	}
 
 	.register {
-		padding: 25px 110px;
+		padding: 20px 60px;
 		font-size: 1.2rem;
 	}
 	.container {
 		height: 100%;
-
 		flex-direction: row;
 	}
 	.hero {
