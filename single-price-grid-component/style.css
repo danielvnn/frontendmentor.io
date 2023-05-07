@@ -1,0 +1,137 @@
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*display: grid;
+  place-items: center;
+  height: 100vh;*/
+  width: 100%;
+  height: 100%;
+  background-color: var(--light-gray);
+  color: var(--grayish-blue);
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  background-color: white;
+  margin: 6%;
+}
+
+.headline {
+  padding: 30px 25px;
+  grid-area: one;
+}
+
+.title-headline {
+  color: var(--cyan);
+}
+
+.second-headline {
+  color: var(--bright-yellow);
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/*.two-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: inherit;
+  grid-template-areas:
+    'html css js'
+    'preview preview preview';
+}
+*/
+
+.two-column {
+  height: 100%;
+  width: 100%;
+}
+
+.price {
+  padding: 30px 25px;
+
+  color: white;
+  background-color: var(--cyan);
+}
+
+.dollar {
+  font-size: 2rem;
+}
+
+.pricetag {
+  margin-top: 15px;
+
+  display: flex;
+  align-items: center;
+}
+
+.month {
+  margin-left: 15px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.sign-up {
+  padding: 20px 0;
+  width: 100%;
+  background-color: var(--bright-yellow);
+  border-radius: 6px;
+  border: none;
+  font-family: 'Karla', sans-serif;
+  color: white;
+  margin-top: 20px;
+}
+
+.copywrite {
+  padding: 30px 25px;
+  color: white;
+  background-color: #4abebd;
+  height: 100%;
+}
+
+.why-us {
+  margin-top: 20px;
+
+  padding-right: 70px;
+  color: var(--light-gray);
+}
+
+@media (min-width: 425px) {
+  .sign-up {
+    width: 70%;
+  }
+}
+
+@media (min-width: 635px) {
+  body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 635px;
+  }
+
+  .two-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: inherit;
+    grid-template-areas: 'one two';
+  }
+  .sign-up {
+    width: 100%;
+  }
+}
