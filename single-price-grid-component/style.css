@@ -24,6 +24,8 @@ body {
 }
 
 .container {
+  box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
   background-color: white;
   margin: 6%;
 }
@@ -34,7 +36,9 @@ body {
 }
 
 .title-headline {
+  font-weight: bold;
   color: var(--cyan);
+  font-size: 1.3rem;
 }
 
 .second-headline {
@@ -54,6 +58,11 @@ body {
 }
 */
 
+.headline-text {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
 .two-column {
   height: 100%;
   width: 100%;
@@ -72,9 +81,15 @@ body {
 
 .pricetag {
   margin-top: 15px;
+  margin-bottom: 10px;
 
   display: flex;
   align-items: center;
+}
+
+.columnn-title {
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 .month {
@@ -83,15 +98,21 @@ body {
   opacity: 0.5;
 }
 
+.desc {
+  color: var(--light-gray);
+}
+
 .sign-up {
-  padding: 20px 0;
+  padding: 15px 0;
   width: 100%;
   background-color: var(--bright-yellow);
   border-radius: 6px;
   border: none;
   font-family: 'Karla', sans-serif;
+  font-size: 1rem;
   color: white;
   margin-top: 20px;
+  box-shadow: 0px 19px 23px 0px rgba(0, 0, 0, 0.1);
 }
 
 .copywrite {
@@ -99,12 +120,15 @@ body {
   color: white;
   background-color: #4abebd;
   height: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .why-us {
-  margin-top: 20px;
-
-  padding-right: 70px;
+  margin-top: 15px;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 300;
   color: var(--light-gray);
 }
 
@@ -124,6 +148,14 @@ body {
   .container {
     max-width: 635px;
   }
+  .headline {
+    padding: 45px 40px;
+  }
+
+  .second-headline {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
 
   .two-column {
     display: grid;
@@ -131,7 +163,30 @@ body {
     grid-template-rows: inherit;
     grid-template-areas: 'one two';
   }
+  .price,
+  .copywrite {
+    padding: 40px;
+    padding-bottom: 30px;
+  }
+  .price {
+    border-bottom-left-radius: 10px;
+  }
+  .copywrite {
+    border-bottom-right-radius: 10px;
+  }
+
   .sign-up {
+    font-size: 1rem;
+    padding: 15px 0;
+    margin-top: 25px;
     width: 100%;
+  }
+  .headline-text {
+    line-height: 1.5;
+    font-family: 16px;
+  }
+
+  .pricetag {
+    margin-bottom: 15px;
   }
 }
