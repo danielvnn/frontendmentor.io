@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://danielvnn.github.io/frontendmentor.io/single-price-grid-componen](https://danielvnn.github.io/frontendmentor.io/single-price-grid-componen)
+- Live Site URL: [https://danielvnn.github.io/frontendmentor.io/single-price-grid-componen](https://danielvnn.github.io/frontendmentor.io/single-price-grid-component)
 
 ## My process
 
